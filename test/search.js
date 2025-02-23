@@ -3,6 +3,6 @@ function searchForProduct(productName) {
     else console.log(`${productName} is searched!`);
   }
   
-  console.log(searchForProduct('Book'));
+  searchForProduct('Book');
   searchForProduct('');
   searchForProduct('    ');
